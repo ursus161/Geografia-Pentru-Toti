@@ -1,27 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  .titlu{
+    @apply text-3xl font-bold italic relative left-40 top-40 text-white
+  }
+  .all{
+    @apply bg-gradient-to-r from-blue-400 to-blue-900 overflow-x-hidden
+  }
+  .titlucategorie{
+    @apply text-xl font-bold italic relative  text-white flex justify-center top-52
+  }
+ .mousein{
+  @apply hover:scale-105 hover:transition-all duration-500
+ }
+  .ecosistemeleterestre{
+    @apply bg-emerald-500 overflow-x-hidden w-64 h-72 rounded-2xl  mousein
+  }
+  .continentelepamantului{
+    @apply bg-sky-500 overflow-x-hidden w-64 h-72 rounded-2xl mousein
+  }
+  .fenomenenaturale{
+    @apply bg-gray-500 overflow-x-hidden w-64 h-72 rounded-2xl mousein
+  }
+  .incalzireaglobala{
+    @apply bg-gradient-to-br from-rose-500 to-amber-500 overflow-x-hidden w-64 h-72 rounded-2xl mousein
+  }
+  .help{
+    @apply bg-teal-500 overflow-x-hidden w-64 h-72 rounded-2xl mousein
+  }
+  .sistemulsolar{
+    @apply bg-gradient-to-br from-yellow-950 to-yellow-500 overflow-x-hidden w-64 h-72 rounded-2xl mousein
+  }
+  .updates{
+    @apply bg-gradient-to-br from-yellow-950 to-yellow-500 overflow-x-hidden w-64 h-96 rounded-2xl relative left-44 top-80 mousein
+  }
+  .grid{
+   @apply relative left-48 top-64  grid-cols-3 grid-rows-2 gap-y-56 gap-x-28 w-max h-96
+  }
+  }
+ 
