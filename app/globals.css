@@ -14,6 +14,9 @@
     @apply bg-gradient-to-r from-blue-400 to-blue-900 overflow-x-hidden
   }
   .titlucategorie{
+    @apply text-xl font-bold italic relative  text-white flex justify-center top-8
+  }
+  .titlucategorie2{
     @apply text-xl font-bold italic relative  text-white flex justify-center top-52
   }
  .mousein{
@@ -38,10 +41,14 @@
     @apply bg-gradient-to-br from-yellow-950 to-yellow-500 overflow-x-hidden w-64 h-72 rounded-2xl mousein
   }
   .updates{
-    @apply bg-gradient-to-br from-yellow-950 to-yellow-500 overflow-x-hidden w-64 h-96 rounded-2xl relative left-44 top-80 mousein
+    @apply bg-teal-500 overflow-x-hidden w-64 h-96 rounded-2xl relative left-64 top-80 mousein
   }
   .grid{
-   @apply relative left-48 top-64  grid-cols-3 grid-rows-2 gap-y-56 gap-x-28 w-max h-96
+   @apply relative left-48 top-64  grid-cols-3 grid-rows-2 gap-y-64 gap-x-44 w-max h-96
   }
+  .container{
+    @apply flex flex-wrap flex-row  
+  }
+  
   }
  
