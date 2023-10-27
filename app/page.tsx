@@ -6,6 +6,7 @@ import continentele from './photos/continentele.png'
 import incalzirea from  './photos/incalzire.png'
 import fenomene from './photos/fenomene.png'
 import heart from './photos/help.png'
+import Link from "next/link"
 export default function Home() {
   
   return (
@@ -16,17 +17,21 @@ export default function Home() {
         <h1 className="titlu">Geografia Distractiva</h1>
         </div>
      
-    <div className="container relative bottom-12 left-32 ">
+    <div className="container relative bottom-12 left-36 ">
         <div className="grid">
         
+          <Link href="sistemsolar">
           <div className="sistemulsolar" >
             <Image className="relative top-9 left-16" src={astronaut} width={120} height={120} alt="Astronaut"/>
            <span className="titlucategorie mt-8">Sistemul Solar</span>
           </div>
+          </Link>
+          <Link href="ecosistemeterestre">
           <div className="ecosistemeleterestre">
           <Image className="relative top-9 left-20" src={copac} width={80} height={90} alt="Astronaut"/>
           <span className="titlucategorie mt-11">Ecosistemele Terestre</span>
           </div>
+          </Link>
           <div className="continentelepamantului">
           <Image className="pb-0 mb-0 relative left-12 top-4" src={continentele} width={150} height={90} alt="Astronaut"/>
           <span className="titlucategorie relative bottom-7">Continentele Pamantului</span>
