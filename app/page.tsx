@@ -13,40 +13,52 @@ export default function Home() {
     <div  >
 
       <div className="relative bottom-20">
-        <Image className="relative top-44 left-20 pt-0 mt-0" src={carte} alt="Carte" width={100} height={90}/>
+        <Image className="relative top-48 left-20 pt-0 mt-0" src={carte} alt="Carte" width={100} height={90}/>
         <h1 className="titlu">Geografia Distractiva</h1>
         </div>
      
     <div className="container relative bottom-12 left-36 ">
         <div className="grid">
         
-          <Link href="sistemsolar">
+          <Link href="https://prezi.com/view/Qp0IGCvwb2Y5pFsRXGgI/">
+            
           <div className="sistemulsolar" >
             <Image className="relative top-9 left-16" src={astronaut} width={120} height={120} alt="Astronaut"/>
            <span className="titlucategorie mt-8">Sistemul Solar</span>
           </div>
+  
           </Link>
-          <Link href="ecosistemeterestre">
+          <Link href="https://prezi.com/view/amKXa7A77Vpi0uXRhNGg/">
           <div className="ecosistemeleterestre">
           <Image className="relative top-9 left-20" src={copac} width={80} height={90} alt="Astronaut"/>
           <span className="titlucategorie mt-11">Ecosistemele Terestre</span>
           </div>
           </Link>
+          <Link href='https://prezi.com/view/oU0tWVwyVUm6RS6qupek/'>
           <div className="continentelepamantului">
           <Image className="pb-0 mb-0 relative left-12 top-4" src={continentele} width={150} height={90} alt="Astronaut"/>
           <span className="titlucategorie relative bottom-7">Continentele Pamantului</span>
           </div>
+          </Link>
+          <Link href='https://prezi.com/view/l8A9oi0bjZqZNGx2JI2i/'>
           <div className="fenomenenaturale">
           <Image className="relative left-16 ml-3 top-10" src={fenomene} width={100} height={90} alt="Astronaut"/>
           <span className="titlucategorie mt-5">Fenomene Naturale</span>
           </div>
+          </Link>
+          <Link href='https://prezi.com/view/yGLmnfqbSBaKetL1drLj/'>
           <div className="incalzireaglobala">
           <Image className="relative left-16 ml-2 top-6" src={incalzirea} width={100} height={80} alt="Astronaut"/>
           <span className="titlucategorie">Incalzariea Globala</span>
           </div>
+          </Link>
+
           <div className="help">
+            <Link href='about'>
+
           <Image className="relative left-14 ml-2 top-6 bottom-0" src={heart} width={130} height={90} alt="Astronaut"/>
-         <p className=" relative bottom-4 "><span className="titlucategorie  ">Ajutor</span></p> 
+         <p className=" relative bottom-4 "><span className="titlucategorie  ">About</span></p> 
+         </Link> 
           </div>
         </div>
 
