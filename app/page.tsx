@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className="titlu">Geografia Distractiva</h1>
         </div>
      
-    <div className="container relative bottom-18 left-36 ">
+    <div className="container relative bottom-24 left-36 ">
         <div className="grid">
         
           <Link href="https://prezi.com/view/Qp0IGCvwb2Y5pFsRXGgI/">
