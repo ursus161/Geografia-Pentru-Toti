@@ -49,7 +49,7 @@ export default function Home() {
           <Link href='https://prezi.com/view/yGLmnfqbSBaKetL1drLj/'>
           <div className="incalzireaglobala">
           <Image className="relative left-16 ml-2 top-6" src={incalzirea} width={100} height={80} alt="Astronaut"/>
-          <span className="titlucategorie">Incalzariea Globala</span>
+          <span className="titlucategorie">Incalzirea Globala</span>
           </div>
           </Link>
 
