@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="relative bottom-20">
         <Image className="relative top-48 left-20 pt-0 mt-0" src={carte} alt="Carte" width={100} height={90}/>
-        <h1 className="titlu">Geografia Distractiva</h1>
+        <h1 className="titlu">GeoSmart</h1>
         </div>
      
     <div className="container relative bottom-24 left-36 ">
@@ -31,13 +31,13 @@ export default function Home() {
           <Link href="https://prezi.com/view/amKXa7A77Vpi0uXRhNGg/">
           <div className="ecosistemeleterestre">
           <Image className="relative top-9 left-20" src={copac} width={80} height={90} alt="Astronaut"/>
-          <span className="titlucategorie mt-11">Ecosistemele Terestre</span>
+          <span className="titlucategorie mt-11">Ecosisteme</span>
           </div>
           </Link>
           <Link href='https://prezi.com/view/oU0tWVwyVUm6RS6qupek/'>
           <div className="continentelepamantului">
           <Image className="pb-0 mb-0 relative left-12 top-4" src={continentele} width={150} height={90} alt="Astronaut"/>
-          <span className="titlucategorie relative bottom-7">Continentele Pamantului</span>
+          <span className="titlucategorie relative bottom-7">Tari si orase</span>
           </div>
           </Link>
           <Link href='https://prezi.com/view/l8A9oi0bjZqZNGx2JI2i/'>
