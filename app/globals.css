@@ -47,7 +47,7 @@
    @apply relative left-48   top-64  lg:grid-cols-3  lg:grid-rows-2 xl:grid-cols-3  xl:grid-rows-2 gap-y-64 gap-x-44 w-max h-96
   }
   .container{
-    @apply flex flex-wrap flex-row items-center
+    @apply flex 
   }
  
   }

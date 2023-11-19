@@ -10,7 +10,7 @@ import Link from "next/link"
 export default function Home() {
   
   return (
-    <div className=" sm:overflow-x-hidden ">
+   
     <div className="   sm:flex-col  " >
 
       <div className="relative bottom-20 ">
@@ -66,7 +66,7 @@ export default function Home() {
        
 
         </div>
-    </div>
+   
     </div>
   )
 }
