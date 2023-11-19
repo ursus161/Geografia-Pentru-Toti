@@ -11,8 +11,8 @@ const About: React.FC = () => {
          <>
   
            
-<div className='flex items-center justify-center min-h-screen from-blue-700 via-blue-800 to-blue-900 bg-gradient-to-br'>
-<div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl">
+<div className='flex items-center justify-center min-h-screen from-blue-700 via-blue-800 to-blue-900 bg-gradient-to-bl  '>
+<div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
     <div className="pb-6">
         <div className="flex flex-wrap justify-center">
             <div className="flex justify-center w-full">
@@ -26,7 +26,7 @@ const About: React.FC = () => {
             <div className="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
               
     
-                <div className="font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">Lector &quot;Geografia Pentru Toti&quot;/Web developer</div>
+                <div className="font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">Lector &quot;Geografia Pentru Toti&quot;/Web designer</div>
                 
             </div>
             <div className="w-full text-center">
@@ -80,7 +80,7 @@ const About: React.FC = () => {
 
 </div>
 <div className='flex items-center justify-center min-h-screen from-blue-900 via-blue-800 to-blue-700 bg-gradient-to-bl'>
-<div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl">
+<div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
     <div className="pb-6">
         <div className="flex flex-wrap justify-center">
             <div className="flex justify-center w-full">
@@ -93,7 +93,7 @@ const About: React.FC = () => {
             <h3 className="mb-1 text-2xl font-bold leading-normal text-blue-700 dark:text-blue-300">Stefan Ghetu</h3>
             <div className="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
                 
-                <div className="  font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">Web developer</div>
+                <div className="  font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">Web designer</div>
                 
             </div>
             <div className="w-full text-center">

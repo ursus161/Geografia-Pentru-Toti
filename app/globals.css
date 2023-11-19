@@ -52,22 +52,82 @@
  
   }
  
-
+  html, body {
+    height: 200%;
+  }
+  body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
 .profile-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
+   
 }
 
 .profile-card {
     margin: 20px;
     max-width: 350px;
     background-color: white;
+    
 }
 .about{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* Default grid layout for large screens */
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap-x: 44px;
+    gap-y: 64px;
+  }
+}
+
+/* Medium-sized screens (600px - 991px) */
+@media (min-width:500px) and (max-width: 1401px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap-x: 32px;
+    gap-y: 100px;
+     
+  }
+
+}
+
+/* Small screens (400px - 599px) */
+@media (min-width: 400px) and (max-width: 499px) {
+  .grid {
+    grid-template-columns: repeat(1,1fr);
+    gap-x: 16px;
+    gap-y: 24px;
+    
+  }
+  
+}
+
+/* Extra small screens (0px - 399px) */
+@media (max-width: 399px) and (min-width: 341px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap-x: 8px;
+    gap-y: 16px;
+ 
+  }
+}
+
+@media (max-width: 340px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap-x: 4px;
+    gap-y: 8px;
+  }
+  .container{
+    left:43px;
+  }
 }
