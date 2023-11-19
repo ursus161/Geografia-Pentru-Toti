@@ -10,14 +10,15 @@ import Link from "next/link"
 export default function Home() {
   
   return (
-    <div  >
+    <div className=" sm:overflow-x-hidden ">
+    <div className="   sm:flex-col  " >
 
-      <div className="relative bottom-20">
+      <div className="relative bottom-20 ">
         <Image className="relative top-48 left-20 pt-0 mt-0" src={carte} alt="Carte" width={100} height={90}/>
         <h1 className="titlu">GeoSmart</h1>
         </div>
      
-    <div className="container relative bottom-24 left-36 ">
+    <div className="container   relative bottom-24 left-36 ">
         <div className="grid">
         
           <Link href="https://prezi.com/view/Qp0IGCvwb2Y5pFsRXGgI/">
@@ -65,6 +66,7 @@ export default function Home() {
        
 
         </div>
+    </div>
     </div>
   )
 }

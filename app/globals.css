@@ -44,12 +44,12 @@
     @apply bg-teal-500 overflow-x-hidden w-64 h-96 rounded-2xl relative left-64 top-80 mousein
   }
   .grid{
-   @apply relative left-48 top-64  grid-cols-3 grid-rows-2 gap-y-64 gap-x-44 w-max h-96
+   @apply relative left-48   top-64  lg:grid-cols-3  lg:grid-rows-2 xl:grid-cols-3  xl:grid-rows-2 gap-y-64 gap-x-44 w-max h-96
   }
   .container{
-    @apply flex flex-wrap flex-row  
+    @apply flex flex-wrap flex-row items-center
   }
-  
+ 
   }
  
 
