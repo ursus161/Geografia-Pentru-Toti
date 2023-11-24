@@ -10,10 +10,10 @@ import fenomene from './photos/fenomene.png'
 import heart from './photos/help.png'
 
 const Grid = () => {
-    return ( 
-     
+    return (
+    
         <div className="flex flex-col justify-center items-center">
-            <div className="grid grid-cols-3 gap-x-32 gap-y-20 sm:grid-cols-1   lg:grid-cols-3">
+            <div className="grid grid-cols-3 gap-x-32 gap-y-20 max-sm:grid-cols-1 max-md:grid-cols-2  lg:grid-cols-3">
             <div className="sistemulsolar" >
           <Link href="https://prezi.com/view/Qp0IGCvwb2Y5pFsRXGgI">
             

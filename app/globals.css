@@ -79,30 +79,22 @@
   justify-content: center;
   align-items: center;
 }
-/* Default grid layout for large screens */
-@media (min-width: 992px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap-x: 44px;
-    gap-y: 64px;
-  }
-}
-
+ 
 /* Medium-sized screens (600px - 991px) */
-@media (min-width:500px) and (max-width: 1401px) {
+@media (min-width:599px) and (max-width: 1401px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2;
     gap-x: 32px;
-    gap-y: 100px;
+    gap-y: 80px;
      
   }
 
 }
 
 /* Small screens (400px - 599px) */
-@media (min-width: 400px) and (max-width: 499px) {
+@media (max-width: 599px) {
   .grid {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: 1;
     gap-x: 16px;
     gap-y: 24px;
     
