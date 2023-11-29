@@ -11,7 +11,7 @@ const About: React.FC = () => {
          <>
   
            
-<div className='flex items-center justify-center min-h-screen from-blue-700 via-blue-800 to-blue-900 bg-gradient-to-bl  '>
+<div className='flex items-center justify-center min-h-screen from-blue-700 via-blue-800 to-blue-900 bg-gradient-to-r  '>
 <div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
     <div className="pb-6">
         <div className="flex flex-wrap justify-center">
@@ -79,7 +79,7 @@ const About: React.FC = () => {
 </div>
 
 </div>
-<div className='flex items-center justify-center min-h-screen from-blue-900 via-blue-800 to-blue-700 bg-gradient-to-bl'>
+<div className='flex items-center justify-center min-h-screen from-blue-900 via-blue-800 to-blue-700 bg-gradient-to-l'>
 <div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
     <div className="pb-6">
         <div className="flex flex-wrap justify-center">
