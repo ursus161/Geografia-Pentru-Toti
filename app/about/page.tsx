@@ -80,7 +80,7 @@ const About: React.FC = () => {
 
 </div>
 <div className='flex items-center justify-center min-h-screen from-blue-900 via-blue-800 to-blue-700 bg-gradient-to-l'>
-<div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
+<div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6  bottom-32 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
     <div className="pb-6">
         <div className="flex flex-wrap justify-center">
             <div className="flex justify-center w-full">
@@ -132,15 +132,7 @@ const About: React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="pt-6 mx-6 mt-6 text-center border-t border-blue-200 dark:border-blue-700/50">
-            <div className="flex flex-wrap justify-center">
-                <div className="w-full px-6">
-                    <p className="mb-4 font-light leading-relaxed text-blue-600 dark:text-blue-400">
-                        Ma numesc Stefan Ghetu, elev în clasa a XI-a la Colegiul Național “Gheorghe Munteanu Murgoci” Brăila, si sunt pasionat de web development, astfel incerc sa invat cat mai multe tehnologii si sa le aplic in proiecte personale.
-                    </p>
-                </div>
-            </div>
-        </div>
+     
         <div className="relative h-6 overflow-hidden translate-y-6 rounded-b-xl">
             <div className="absolute flex -space-x-12 rounded-b-2xl">
                 <div className="w-36 h-8 transition-colors duration-200 delay-75 transform skew-x-[35deg] bg-green-400/90 group-hover:bg-green-600/90 z-10"></div>
