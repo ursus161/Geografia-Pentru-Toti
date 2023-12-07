@@ -19,7 +19,7 @@ const Grid = () => {
             
           <div className="sistemulsolar" >
             <Image className="relative top-9 left-16" src={astronaut} width={120} height={120} alt="Astronaut"/>
-           <span className="titlucategorie mt-8 overflow-hidden whitespace-nowrap">Universul: Sistemul Solar</span>
+           <span className="titlucategorie mt-8 overflow-hidden whitespace-nowrap "  style={{ fontSize: '18px' }}>Universul: Sistemul Solar</span>
           </div>
           </Link>
           </div>
@@ -27,28 +27,28 @@ const Grid = () => {
           <div className="ecosistemeleterestre">
           <Link href="https://prezi.com/view/amKXa7A77Vpi0uXRhNGg">         
           <Image className="relative top-9 left-20" src={copac} width={80} height={90} alt="Astronaut"/>
-          <span className="titlucategorie mt-11 overflow-hidden whitespace-nowrap">Ecosistemele Planetei</span>
+          <span className="titlucategorie mt-11 overflow-hidden whitespace-nowrap"  style={{ fontSize: '18px' }}>Ecosistemele Planetei</span>
           </Link>
           </div>
 
           <div className="continentelepamantului">
           <Link href='https://prezi.com/view/oU0tWVwyVUm6RS6qupek'>     
           <Image className="pb-0 mb-0 relative left-12 top-4" src={continentele} width={150} height={90} alt="Astronaut"/>
-          <span className="titlucategorie relative bottom-12 overflow-hidden whitespace-nowrap" style={{ fontSize: '19px' }}>Continentele: Tari si Orase</span>
+          <span className="titlucategorie relative bottom-12 overflow-hidden whitespace-nowrap" style={{ fontSize: '18px' }}>Continentele: Tari si Orase</span>
           </Link>
           </div>
 
           <Link href='https://prezi.com/view/l8A9oi0bjZqZNGx2JI2i'>
           <div className="fenomenenaturale">
           <Image className="relative left-16 ml-3 top-10" src={fenomene} width={100} height={90} alt="Astronaut"/>
-          <span className="titlucategorie mt-5 overflow-hidden whitespace-nowrap">Fenomenele Naturale</span>
+          <span className="titlucategorie mt-5 overflow-hidden whitespace-nowrap" style={{ fontSize: '18px' }}>Fenomenele Naturale</span>
           </div>
           </Link>
 
                 <Link href='https://prezi.com/view/yGLmnfqbSBaKetL1drLj'>
           <div className="incalzireaglobala">
           <Image className="relative left-16 ml-2 top-6" src={incalzirea} width={100} height={80} alt="Astronaut"/>
-          <span className="titlucategorie overflow-hidden whitespace-nowrap">Incalzirea Globala</span>
+          <span className="titlucategorie overflow-hidden whitespace-nowrap"  style={{ fontSize: '18px' }}>Incalzirea Globala</span>
           </div>
           </Link>
 
@@ -56,7 +56,7 @@ const Grid = () => {
             <Link href='about'>
 
           <Image className="relative left-14 ml-2 top-6 bottom-0" src={heart} width={130} height={90} alt="Astronaut"/>
-         <p className=" relative bottom-4 "><span className="titlucategorie overflow-hidden whitespace-nowrap">About Us</span></p> 
+         <p className=" relative bottom-4 "><span className="titlucategorie overflow-hidden whitespace-nowrap"  style={{ fontSize: '18px' }}>About Us</span></p> 
          </Link> 
           </div>
             </div>
