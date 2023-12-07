@@ -60,8 +60,7 @@ const About: React.FC = () => {
             <div className="flex flex-wrap justify-center">
                 <div className="w-full px-6">
                     <p className="mb-4 font-light leading-relaxed text-blue-600 dark:text-blue-400">
-                    Salut! Sunt Minaev Tudor-Alexandru, olimpic național și european la disciplina Geografie și elev în clasa a XII-a la Colegiul Național “Gheorghe Munteanu Murgoci” Brăila. Îmi doresc să pot face Geografia o materie mai plăcută
-                     de către elevi și să pot împărtăși pasiunea și dragostea mea pentru aceasta cu ceilalți.
+                  { "Salut! Sunt Minaev Tudor-Alexandru, olimpic național și european la disciplina Geografie și elev în clasa a XII-a la Colegiul Național “Gheorghe Munteanu Murgoci” Brăila. Îmi doresc să pot face Geografia o materie mai plăcută de către elevi și să pot împărtăși pasiunea și dragostea mea pentru aceasta cu ceilalți."}
                     </p>
                 </div>
             </div>
