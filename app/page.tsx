@@ -10,14 +10,23 @@ import incalzirea from  './photos/incalzire.png'
 import fenomene from './photos/fenomene.png'
 import heart from './photos/help.png'
 import Anglia from '../app/photos/Anglia.png' ;
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import Romania from '../app/photos/Romania.png'
 import { relative } from "path";
  
  
 
 export default function Home() {
-  const [language, setLanguage] = useState('en');
+
+
+  const [language, setLanguage] = useState(() => {
+    const storedLanguage = sessionStorage.getItem("language");
+    return storedLanguage ? storedLanguage : "en";
+  });
+
+  useEffect(() => {
+    sessionStorage.setItem("language", language);
+  }, [language]);
   const toggleLanguage = () => {
     if (language === 'en') {
       setLanguage('ro');

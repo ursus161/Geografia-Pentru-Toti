@@ -5,19 +5,26 @@ import stefan from 'app/photos/eu.jpg';
 import alex from 'app/photos/alex.jpg';
 import Romania from 'app/photos/Romania.png'
 import Anglia from 'app/photos/Anglia.png'
-import { useState } from "react";
+import { useState, useEffect  } from "react";
  
  
 
 const About: React.FC = () => {
-    const [language, setLanguage] = useState('en');
-  const toggleLanguage = () => {
-    if (language === 'en') {
-      setLanguage('ro');
-    } else {
-      setLanguage('en');
-    }
-  };
+    const [language, setLanguage] = useState(() => {
+        const storedLanguage = sessionStorage.getItem("language");
+        return storedLanguage ? storedLanguage : "en";
+      });
+    
+      useEffect(() => {
+        sessionStorage.setItem("language", language);
+      }, [language]);
+      const toggleLanguage = () => {
+        if (language === 'en') {
+          setLanguage('ro');
+        } else {
+          setLanguage('en');
+        }
+      };
     return (
          <>
    <div className="h-min fixed top-0 right-0 z-50">
