@@ -1,15 +1,31 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import stefan from 'app/photos/eu.jpg';
 import alex from 'app/photos/alex.jpg';
+import Romania from 'app/photos/Romania.png'
+import Anglia from 'app/photos/Anglia.png'
+import { useState } from "react";
  
  
 
 const About: React.FC = () => {
-  
+    const [language, setLanguage] = useState('en');
+  const toggleLanguage = () => {
+    if (language === 'en') {
+      setLanguage('ro');
+    } else {
+      setLanguage('en');
+    }
+  };
     return (
          <>
-  
+   <div className="h-min fixed top-0 right-0 z-50">
+      <button onClick={toggleLanguage} className="text-bold text-teal-300 flex flex-col z-9 content-center max-xl: relative right-12">
+        <Image src= {language==='en'? Anglia : Romania} alt={language==='en' ? "English" : "Romanian"} width={55} height={38} className="relative left-10"/>
+        Toggle Language</button>
+      </div>
+     
            
 <div className='flex items-center justify-center min-h-screen from-blue-700 via-blue-800 to-blue-900 bg-gradient-to-r '>
 <div className="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-blue-800 dark:border-blue-700 md:max-w-sm rounded-xl scale-90">
@@ -22,11 +38,11 @@ const About: React.FC = () => {
             </div>
         </div>
         <div className="mt-2 text-center">
-            <h3 className="mb-1 text-2xl font-bold leading-normal text-blue-700 dark:text-blue-300">Alexandru-Tudor Minaev</h3>
+            <h3 className="mb-1 text-2xl font-bold leading-normal text-blue-700 dark:text-blue-300">Alexandru-Tudor Minaev</h3> 
             <div className="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
               
     
-                <div className="font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">Lector &quot;Geografia Pentru Toti&quot;/Web designer</div>
+                <div className="font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">{language==='en'? "Teacher “Geography for All”/Web designer":"Lector “Geografia Pentru Toti”/Web designer"} </div>
                 
             </div>
             <div className="w-full text-center">
@@ -60,7 +76,9 @@ const About: React.FC = () => {
             <div className="flex flex-wrap justify-center">
                 <div className="w-full px-6">
                     <p className="mb-4 font-light leading-relaxed text-blue-600 dark:text-blue-400">
-                  { "Salut! Sunt Minaev Tudor-Alexandru, olimpic național și european la disciplina Geografie și elev în clasa a XII-a la Colegiul Național “Gheorghe Munteanu Murgoci” Brăila. Îmi doresc să pot face Geografia o materie mai plăcută de către elevi și să pot împărtăși pasiunea și dragostea mea pentru aceasta cu ceilalți."}
+                  { language==='en' ?
+                   "Hello! I am Minaev Tudor-Alexandru, national and European Olympian in Geography and student in the 12th grade at “Gheorghe Munteanu Murgoci” National College Brăila. I want to be able to make Geography a more enjoyable subject for students and share my passion and love for it with others" : 
+                   "Salut! Sunt Minaev Tudor-Alexandru, olimpic național și european la disciplina Geografie și elev în clasa a XII-a la Colegiul Național “Gheorghe Munteanu Murgoci” Brăila. Îmi doresc să pot face Geografia o materie mai plăcută de către elevi și să pot împărtăși pasiunea și dragostea mea pentru aceasta cu ceilalți."}
                     </p>
                 </div>
             </div>
