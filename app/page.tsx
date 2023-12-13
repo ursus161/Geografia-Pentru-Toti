@@ -20,12 +20,17 @@ export default function Home() {
 
 
   const [language, setLanguage] = useState(() => {
-    const storedLanguage = sessionStorage.getItem("language");
-    return storedLanguage ? storedLanguage : "en";
+    if (typeof window !== 'undefined') {
+      const storedLanguage = sessionStorage.getItem("language");
+      return storedLanguage ? storedLanguage : "en";
+    }
+    return "en";
   });
-
+  
   useEffect(() => {
-    sessionStorage.setItem("language", language);
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem("language", language);
+    }
   }, [language]);
   const toggleLanguage = () => {
     if (language === 'en') {
