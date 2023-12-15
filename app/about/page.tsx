@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import stefan from 'app/photos/eu.jpg';
+import niscov from 'app/photos/niscov.jpg';
 import alex from 'app/photos/alex.jpg';
 import Romania from 'app/photos/Romania.png'
 import Anglia from 'app/photos/Anglia.png'
@@ -54,7 +54,7 @@ const About: React.FC = () => {
             <div className="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
               
     
-                <div className="font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">{language==='en'? "Teacher “Geography for All”/Web designer":"Lector “Geografia Pentru Toti”/Web designer"} </div>
+                <div className="font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">{language==='en'? "Teacher “Geography for All”":"Lector “Geografia Pentru Toti”"} </div>
                 
             </div>
             <div className="w-full text-center">
@@ -114,35 +114,25 @@ const About: React.FC = () => {
         <div className="flex flex-wrap justify-center">
             <div className="flex justify-center ">
                 <div className="relative">
-                    <Image alt='poza' src={stefan} className="dark:shadow-xl border-white relative  dark:border-blue-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
+                    <Image alt='poza' src={niscov} className="dark:shadow-xl border-white relative  dark:border-blue-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
                 </div>
             </div>
         </div>
         <div className=" mt-20 text-center">
-            <h3 className="mb-1 text-2xl font-bold leading-normal text-blue-700 dark:text-blue-300">Stefan Ghetu</h3>
+            <h3 className="mb-1 text-2xl font-bold leading-normal text-blue-700 dark:text-blue-300">Cristina Nișcov</h3>
             <div className="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
                 
-                <div className="  font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">Web designer</div>
+                <div className="  font-bold tracking-wide text-blue-600 dark:text-blue-300 font-mono text-xl">{language==='en'? "Teacher “Geography for All”":"Lector “Geografia Pentru Toti”"}</div>
                 
             </div>
             <div className="w-full text-center">
                 <div className="flex justify-center pt-8 pb-0 lg:pt-4">
                     <div className="flex space-x-2">
                        
-
-                        <a className="p-1 -m-1 text-blue-400 hover:text-green-500 focus:outline-none focus-visible:ring-2 ring-primary" href="https://www.github.com/ursus161" rel="noopener" aria-label="Ariel Cerda on Github" target="_blank">
-                            <svg className="w-6 h-6 overflow-visible fill-current"  aria-hidden="true" viewBox="0 0 140 140">
-                                <path
-                                    d="M70 1.633a70 70 0 00-21.7 136.559h1.692a5.833 5.833 0 006.183-6.184v-1.225-6.358a2.917 2.917 0 00-1.167-1.925 2.917 2.917 0 00-2.45-.583C36.925 125.3 33.6 115.5 33.367 114.858a27.067 27.067 0 00-10.034-12.775 6.767 6.767 0 00-.875-.641 3.675 3.675 0 012.217-.409 8.575 8.575 0 016.708 5.134 17.5 17.5 0 0023.334 6.766 2.917 2.917 0 001.691-2.1 11.667 11.667 0 013.267-7.175 2.917 2.917 0 00-1.575-5.075c-13.825-1.575-27.942-6.416-27.942-30.275a23.333 23.333 0 016.125-16.216A2.917 2.917 0 0036.808 49a20.533 20.533 0 01.059-14 32.317 32.317 0 0114.7 6.708 2.858 2.858 0 002.45.409A61.892 61.892 0 0170 39.958a61.075 61.075 0 0116.042 2.159 2.858 2.858 0 002.391-.409 32.608 32.608 0 0114.7-6.708 20.825 20.825 0 010 13.883 2.917 2.917 0 00.525 3.092 23.333 23.333 0 016.125 16.042c0 23.858-14.175 28.641-28.058 30.216a2.917 2.917 0 00-1.575 5.134 12.833 12.833 0 013.558 10.15v18.55a6.183 6.183 0 002.1 4.841 7 7 0 006.184 1.109A70 70 0 0070 1.633z"
-                                ></path>
-                            </svg>
-                        </a>
-
-                        
-
+ 
                         <a
                             className="p-1 -m-1 text-blue-400 hover:text-green-500 focus:outline-none focus-visible:ring-2 ring-primary"
-                            href="https://www.instagram.com/1grizz5"
+                            href="https://www.instagram.com/asapcristina"
                             rel="noopener"
                             aria-label="Instagram"
                             target="_blank"
