@@ -12,7 +12,7 @@ import heart from './photos/help.png'
 import Anglia from '../app/photos/Anglia.png' ;
 import { useState , useEffect } from "react";
 import Romania from '../app/photos/Romania.png'
-import { relative } from "path";
+ 
  
  
 
