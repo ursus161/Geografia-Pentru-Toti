@@ -33,7 +33,7 @@ const About: React.FC = () => {
     return (
          <>
    <div className="h-min fixed top-0 right-0 z-50">
-      <button onClick={toggleLanguage} className="text-bold text-teal-300 flex flex-col z-9 content-center max-xl:relative max-xl:right-12">
+      <button onClick={toggleLanguage} className="text-bold text-teal-300 flex flex-col z-9 content-center max-xl:relative  ">
         <Image src= {language==='en'? Anglia : Romania} alt={language==='en' ? "English" : "Romanian"} width={55} height={38} className="relative left-10"/>
         Toggle Language</button>
       </div>
